@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Portfolio Website | Prtfolio Website Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+    <div class="Navbar">
+        <div class="logo">
+            <p>Vishal</p>
+        </div>
+        <div class="container">
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        <div class="hero">
+            <h2>HI!</h2>
+            <h1>I am Vishal</br> <span>Kushwaha</span></h1>
+            <p>FRONTED WEB DEVLOPER!</p>
+            <a href="#">Visit My Works</a>
+        </div>
+    </div>
+    </div>
+    </section>  
+    <section>
+        <div class="about">
+            <div class="img">
+                <img src="images/user.png">
+            </div>
+            <div class="about_me">
+                <p class="subtitle">Who Am I ?</p>
+                <h2 class="title">About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam sapiente,</br> nulla amet sequi molestiae voluptates, debitis mollitia repellat vero illum!</br> Optio quos similique architecto laudantium, voluptatibus accusamus possimus</br> dolor cumque quisquam error sed iusto quis modi perspiciatis obcaecati harum ut</br> cupiditate repellat? Necessitatibus nesciunt similique dicta porro neque!</p>
+                <button class="btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+<!-------- services -------->
+
+<section class="services">
+    <p>What I Do ?</p>
+    <h2>Services</h2>
+    <div class="row">
+        <div class="services-col">
+            <h3>Web Designer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sequi, facere quibusdam eos ut optio earum, maxime aut deleniti consequuntur dolor eius at. Aut totam cupiditate, ipsum aliquid dolores quam autem minus omnis! Iure soluta iste non, perferendis aliquam recusandae?</p>
+            <button type="btn">Know More</button>
+        </div>
+        <div class="services-col">
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sequi, facere quibusdam eos ut optio earum, maxime aut deleniti consequuntur dolor eius at. Aut totam cupiditate, ipsum aliquid dolores quam autem minus omnis! Iure soluta iste non, perferendis aliquam recusandae?</p>
+            <button type="btn">Know More</button>
+        </div>
+        <div class="services-col">
+            <h3>Programmer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sequi, facere quibusdam eos ut optio earum, maxime aut deleniti consequuntur dolor eius at. Aut totam cupiditate, ipsum aliquid dolores quam autem minus omnis! Iure soluta iste non, perferendis aliquam recusandae?</p>
+            <button type="btn">Know More</button>
+        </div>
+    </div>
+</section>
+
+<!--------Contact-------->
+
+<section class="contact">
+    <p>How can you conmmunicate ?</p>
+    <h2>Contact Me</h2>
+    <form>
+        <div class="input-form">
+        <div class="name">
+        <input type="text" name="name" placeholder="Your Name"></div>
+        <div class="name">
+        <input type="email" name="email" placeholder="Enter your email"></div>
+        </div>
+        <div class="inner-msg">
+            <div class="msg">
+                <textarea placeholder="Write your message"></textarea>
+            </div>
+        </div>
+        <button type="submit" name="Message">Send Message</button>
+    </form>
+</section>
+
+
+<!--------Footer-------->
+<section class="footer">
+    <hr>
+    Copyright &copy;Vishal Kushwaha 2022-2023
+</section>
+    <script>
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function(){
+            menutoggle.classList.toggle('active');
+        }
+    </script> 
+</body>
+</html>
